@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="" method="get">
+    <form action="index.php" method="POST">
         <div>
             <label for="a">a : </label>
             <input id="a" name="a" type="number">
@@ -25,9 +25,9 @@
             <label for="c">c : </label>
             <input id="c" name="c" type="number">
         </div>
-        
+
         <div>
-            <input type="button" value="calculer">
+            <input type="submit" value="calculer">
         </div>
     </form>
 </body>
