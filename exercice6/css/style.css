@@ -1,0 +1,47 @@
+    body {}
+
+        .content {
+            display: flex;
+            margin-top: 10vh;
+            height: 50vh;
+            width: 50vh;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ccc;
+            border-radius: 30px;
+        }
+
+        h2 {
+            margin-left: 20%;
+        }
+
+        form {
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .champ {
+            padding-top: 5%;
+            border-radius: 10px;
+            height: 2vh;
+        }
+
+        .cellule {
+            padding-top: 2vh;
+        }
+
+        .btn {
+            width: 80%;
+            height: 4vh;
+            margin-left: 14%;
+            background-color: white;
+            color: green;
+            border-radius: 5px;
+            font-size: 1.5rem;
+        }
+
+        .btn:hover {
+            color: red;
+        }
