@@ -1,36 +1,44 @@
+<?php session_start();  ?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>acceil second derges</title>
-    <style>
-        .content {
-            margin-top: 10vh;
-            height: 50vh;
-            background-color: red;
-        }
-    </style>
+    <title>saisi des donnees pour second degres</title>
 </head>
 
 <body>
-    <div class="container">
-        <a href="form.html.php">formulaire de calcul</a>
-    </div>
-        <h2>a = <?php echo $_POST['a']; ?> </h2>
-        <h2>b = <?php echo $_POST['b']; ?> </h2>
-        <h2>c = <?php echo $_POST['c']; ?> </h2>
+    <div class="content">
+        <form action="controller.php" method="POST">
+            <h2>ax²+bx+c=0</h2>
+            <div class="cellule">
+                <label for="a">a : </label>
+                <input class="champ" id="a" name="a" type="text" placeholder="       ax²+bx+c=0">
+            </div>
+            <div class="cellule">
+                <label for="b">b : </label>
+                <input class="champ" id="b" name="b" type="text" placeholder="       ax²+bx+c=0">
+            </div>
+
+            <div class="cellule">
+                <label for="c">c : </label>
+                <input class="champ" id="c" name="c" type="text" placeholder="       ax²+bx+c=0">
+            </div>
+
+            <div class="cellule ">
+                <input class="btn" type="submit" name="btn-sub" value="calculer">
+            </div>
+        </form>
         <?php
-        include 'fonctions.php';
-        if (!empty($_POST['a']) && !empty($_POST['b']) && !empty($_POST['c'])) {
-            second_degre($_POST['a'], $_POST['b'], $_POST['c']) . "\n";
-        } else {
-            echo "veilez remplir tous les champ !\n";
-        }
+        if (isset($_SESSION)) {
+            echo $_SESSION['equation'];
+
+            unset($_SESSION['equation']);
+        }                               
         ?>
+    </div>
 </body>
 
 </html>
