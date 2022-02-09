@@ -1,4 +1,5 @@
 <?php session_start();  ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -32,11 +33,12 @@
             </div>
         </form>
         <?php
-        if (isset($_SESSION)) {
+        if (isset($_SESSION['equation'])&& $_SESSION['equation']!="") {
             echo $_SESSION['equation'];
+        second_degre($_SESSION['a'], $_SESSION['b'], $_SESSION['c']) . "\n";
 
-            unset($_SESSION['equation']);
         }                               
+        unset($_SESSION['equation']);
         ?>
     </div>
 </body>

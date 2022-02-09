@@ -43,6 +43,7 @@ function date_suivante($jour, $moi, $annee)
         print("veillez verifier la date saisie ! \n");
     }
 }
+
 function date_precedente($jour, $moi, $annee)
 {
     if (date_valide($jour, $moi, $annee)) {

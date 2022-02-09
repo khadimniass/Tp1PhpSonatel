@@ -1,13 +1,19 @@
 <?php
 session_start();
-session_name('equation');
+// echo session_save_path(); // cette fonction permet de voir le fichier de stockages des sessions
+// session_name('equation');
 include 'fonctions.php';
 include '../foncrionsCommunes.php';
 $_SESSION['equation']="";
 if (isset($_POST['btn-sub'])) {
     if (estNombre($_POST['a']) && estNombre($_POST['b']) && estNombre($_POST['c'])) {
-        $_SESSION['equation']=second_degre($_POST['a'], $_POST['b'], $_POST['c']) . "\n";
-    } else {
+        $_SESSION['a']=$_POST['a'];
+        $_SESSION['b']=$_POST['b'];
+        $_SESSION['c']=$_POST['c'];
         header('location:index.php');
+        exit();
+    }else {
+        header('location:index.php');
+        exit();
     }
 }
