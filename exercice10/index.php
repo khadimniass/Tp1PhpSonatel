@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <p style="font-size: 3rem; text-align: center;">
         <em>Exercice 10 : </em> Le nombre N est saisi à l’aide d’un formulaire et on génère les N champs inputs . N est positif.
     </p>
