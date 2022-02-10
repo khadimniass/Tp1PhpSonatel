@@ -46,6 +46,11 @@ include 'fonctions.php';
             if ($_SESSION['T']) {
                 multipliction($_SESSION['post']['number']);
             }
+
+            if ($_SESSION['post']) {
+                unset($_SESSION['post']);
+            }
+            
         ?>
     </div>
 </body>
