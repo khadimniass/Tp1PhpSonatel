@@ -25,6 +25,13 @@ include '../ERROR_MANAGER.php';
             display: flex;
             flex-direction: column;
         }
+        table{
+            border-radius: 5px;
+            background-color: #ECF0F1 ;
+        }
+        table td {
+            border-radius: 3px;
+        }
     </style>
 </head>
 
