@@ -7,5 +7,12 @@ function est_premier($nombre): bool
             $cpt++;
         }
     }
-    return $cpt == 1 ? true : false;
+    return $cpt == 1;
 }
+// $n=113;
+// if (est_premier($n)) {
+//     echo "premier";
+// }
+// else {
+//     echo "no p";
+// }
