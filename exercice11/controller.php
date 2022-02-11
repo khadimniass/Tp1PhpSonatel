@@ -14,6 +14,7 @@ $som = 0;
 $n = 0;
 if (isset($_POST['btn']) && !empty($_POST['btn'])) {
     if (estNombre($numb)) {
+        if ($numb>100) {
         //initialisation
         $_SESSION['T'] = true;
         $_SESSION['post'] = $_POST;
@@ -43,6 +44,15 @@ if (isset($_POST['btn']) && !empty($_POST['btn'])) {
         $_SESSION['tab'] = $TABLEAU;
         header('location:index.php');
         die();
+    }else {
+        $_SESSION['message']="vellez saisir un nombre supérieur a 100";
+        header('location:index.php');
+        die();
+    }
+
+
+
+
 
     } else {
         header('location:index.php');
