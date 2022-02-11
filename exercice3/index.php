@@ -1,4 +1,4 @@
 <?php
 include 'fonctions.php';
-
-echo division(0,1);
+echo "les opérations <br>";
+echo division(2,1);

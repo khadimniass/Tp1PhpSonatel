@@ -9,23 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <div> <a href="#">1</a> </div>
-        <div> <a href="#">2</a> </div>
-        <div> <a href="#">3</a> </div>
-        <div> <a href="#">4</a> </div>
-        <div> <a href="#">5</a> </div>
-        <div> <a href="#">6</a> </div>
-        <div> <a href="#">7</a> </div>
-        <div> <a href="#">8</a> </div>
-        <div> <a href="#">9</a> </div>
-        <div> <a href="#">10</a></div>
-        <div> <a href="#">11</a></div>
-        <div> <a href="#">12</a></div>
-        <div> <a href="#">13</a></div>
-        <div> <a href="#">14</a></div>
-        <div> <a href="#">15</a></div>
-        <div> <a href="#">16</a></div>
-        <div> <a href="#">17</a></div>
+        <div> <a href="exercice1">EXERCICE 1</a> </div>
+        <div> <a href="exercice2">EXERCICE 2</a> </div>
+        <div> <a href="exercice3">EXERCICE 3</a> </div>
+        <div> <a href="exercice4">EXERCICE 4</a> </div>
+        <div> <a href="exercice5">EXERCICE 5</a> </div>
+        <div> <a href="exercice6">EXERCICE 6</a> </div>
+        <div> <a href="exercice7">EXERCICE 7</a> </div>
+        <div> <a href="exercice8">EXERCICE 8</a> </div>
+        <div> <a href="exercice9">EXERCICE 9</a> </div>
+        <div> <a href="exercice10">EXERCICE 10</a></div>
+        <div> <a href="exercice11/">EXERCICE 11</a></div>
+        <div> <a href="exercice12">EXERCICE 12</a></div>
+        <div> <a href="exercice13">EXERCICE 13</a></div>
+        <div> <a href="exercice14">EXERCICE 14</a></div>
+        <div> <a href="exercice15">EXERCICE 15</a></div>
+        <div> <a href="exercice16">EXERCICE 16</a></div>
+        <div> <a href="exercice17">EXERCICE 17</a></div>
     </div>
 </body>
 </html>

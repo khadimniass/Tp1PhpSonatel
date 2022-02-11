@@ -6,7 +6,7 @@ include '../foncrionsCommunes.php';
 $_SESSION['T'] = false;
 $numb = $_POST['nombre'];
 $TABLEAU = [
-    "premier" => [],
+    "premier"=> [],
     "infmoy" => [],
     "supmoy" => []
 ];
@@ -49,10 +49,6 @@ if (isset($_POST['btn']) && !empty($_POST['btn'])) {
         header('location:index.php');
         die();
     }
-
-
-
-
 
     } else {
         header('location:index.php');
