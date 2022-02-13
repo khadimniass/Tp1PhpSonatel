@@ -19,7 +19,7 @@
         <div> <a href="exercice8">EXERCICE 8</a> </div>
         <div> <a href="exercice9">EXERCICE 9</a> </div>
         <div> <a href="exercice10">EXERCICE 10</a></div>
-        <div> <a href="exercice11/">EXERCICE 11</a></div>
+        <div> <a href="exercice11">EXERCICE 11</a></div>
         <div> <a href="exercice12">EXERCICE 12</a></div>
         <div> <a href="exercice13">EXERCICE 13</a></div>
         <div> <a href="exercice14">EXERCICE 14</a></div>

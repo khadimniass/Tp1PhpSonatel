@@ -1,15 +1,24 @@
+*{
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    background-color: #ECF0F1 ;
+    
+}
 .container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fill, 50vh);
     grid-template-rows: 100px 100px;
     justify-content: space-evenly;
-
 }
 .container div{
+    margin: 2vh;
     height: 10vh;
     border: 1px solid #333;
-
+    text-align: center;
+    border-radius: 10px;
 }
 .btn-left{
 
